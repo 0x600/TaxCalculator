@@ -8,11 +8,11 @@
 void format(int n, char* result) {
     sprintf(result, "%d", n);
     int len = 0;
-    while (result[len] != '\0') {
+    while(result[len] != '\0') {
         len++;
     }
-    for (int i = len - 1, count = 0; i >= 0; i--, count++) {
-        if (count != 0 && count % 3 == 0) {
+    for(int i = len - 1, count = 0; i >= 0; i--, count++) {
+        if(count != 0 && count % 3 == 0) {
             for (int j = len + 1; j > i + 1; j--) {
                 result[j] = result[j - 1];
             }
@@ -23,7 +23,7 @@ void format(int n, char* result) {
 }
 
 int main(int argc, char* argv[]) {
-    if (argc != 2) {
+    if(argc != 2) {
         printf("Usage: %s <amount_after_tax>\n", argv[0]);
         return 1;
     }
