@@ -14,5 +14,5 @@ n being the number which is inputted.
 
 ## How to compile?
 
-If you're on Linux, compile using `gcc main.c -o tax`
+If you're on Linux, compile using `gcc main.c -o tax`\n
 If you're on Windows, compile using `gcc main.c -o tax.exe`
