@@ -3,7 +3,7 @@
 Figure out how much robux you need for a specific amount of robux!
 
 ## Syntax
-`./tax <n>`\n
+`./tax <n>`
 n - Robux you want to calculate
 
 ## How can I calculate it?
@@ -14,5 +14,5 @@ n being the number which is inputted.
 
 ## How to compile?
 
-If you're on Linux, compile using `gcc main.c -o tax`\n
+If you're on Linux, compile using `gcc main.c -o tax`
 If you're on Windows, compile using `gcc main.c -o tax.exe`
