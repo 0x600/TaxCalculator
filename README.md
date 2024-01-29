@@ -6,4 +6,4 @@ Figure out how much robux you need for a specific amount of robux!
 
 $\large{$\text{ceil}\left(\frac{n}{1 - 0.3}\right)$}
 
-\large{$n$} - The inputted amount.
+$\large{$n$} - The inputted amount.
